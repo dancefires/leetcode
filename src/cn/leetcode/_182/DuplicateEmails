@@ -9,21 +9,28 @@
 | 2  | c@d.com |
 | 3  | a@b.com |
 +----+---------+
-
 根据以上输入，你的查询应返回以下结果：
 +---------+
 | Email   |
 +---------+
 | a@b.com |
 +---------+
-
 说明：所有电子邮箱都是小写字母。
 
 解答：
-select Email
-from
-(select Email,count(1) c
-from Person group by Email) cc
-where cc.c>1
+SELECT
+    Email
+FROM
+(
+    SELECT
+        Email,
+        COUNT(1) c
+    FROM
+        Person
+    GROUP BY
+        Email
+) cc
+WHERE
+    cc.c>1
 
 结论：通过

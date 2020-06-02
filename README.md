@@ -1,2 +1,0 @@
-# leetcode
-Self Training

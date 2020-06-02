@@ -32,5 +32,3 @@ FROM
 ) cc
 WHERE
     cc.c>1
-
-结论：通过

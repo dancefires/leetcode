@@ -1,16 +1,13 @@
-package cn.leetcode;
+package cn.leetcode.数组;
 
-/**
- * 题目：
- * 给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
- * 不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
- * 示例:
- * 给定数组 nums = [1,1,2],
- * 函数应该返回新的长度 2, 并且原数组 nums 的前两个元素被修改为 1, 2。
- * 你不需要考虑数组中超出新长度后面的元素。
- */
+/**  
+* @desc : https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+* @author : cm  
+* @createTime : 2020-7-2 16:38:51  
+* @version : v1.0    
+*/
 //(结论：超时)
-public class Problem26A {
+public class _26_删除排序数组中的重复项 {
 
     public void changeArray(int[] nums, int position) {
         if (nums.length - 1 - position >= 0) {
@@ -45,8 +42,8 @@ public class Problem26A {
     }
 
     public static void main(String[] args) {
-        Problem26A remove = new Problem26A();
-        int[] nums = {0, 1, 1, 1, 2, 3};
+        _26_删除排序数组中的重复项 remove = new _26_删除排序数组中的重复项();
+        int[] nums = { 0, 1, 1, 1, 2, 3 };
         // nums 是以“引用”方式传递的。也就是说，不对实参做任何拷贝
         int len = remove.removeDuplicates(nums);
         System.out.println("len=" + len);

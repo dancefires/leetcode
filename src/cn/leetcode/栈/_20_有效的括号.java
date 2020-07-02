@@ -1,21 +1,21 @@
-package cn.leetcode;
+package cn.leetcode.栈;
 
 import java.util.HashMap;
 import java.util.Stack;
 
-/**
- * 题目：
- * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
- * 有效字符串需满足：
- * 左括号必须用相同类型的右括号闭合。 左括号必须以正确的顺序闭合。 注意空字符串可被认为是有效字符串。
- */
-public class Problem20 {
+/**  
+* @desc : https://leetcode-cn.com/problems/valid-parentheses/  
+* @author : cm  
+* @createTime : 2020-7-2 16:30:39  
+* @version : v1.0    
+*/
+public class _20_有效的括号 {
 
     // Hash table that takes care of the mappings.
     private final HashMap<Character, Character> mappings;
 
     // Initialize hash map with mappings. This simply makes the code easier to read.
-    public Problem20() {
+    public _20_有效的括号() {
         // 注意闭括号作为key，开括号作为value
         this.mappings = new HashMap<Character, Character>();
         this.mappings.put(')', '(');
@@ -62,7 +62,7 @@ public class Problem20 {
 
     public static void main(String[] args) {
         String s = "([{}])";
-        Problem20 problem20 = new Problem20();
+        _20_有效的括号 problem20 = new _20_有效的括号();
         System.out.println(problem20.isValid(s));
     }
 

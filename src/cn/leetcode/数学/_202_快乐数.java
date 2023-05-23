@@ -1,15 +1,14 @@
 package cn.leetcode.数学;
 
 import java.util.HashSet;
-
 import java.util.Set;
 
-/**  
-* @desc : https://leetcode-cn.com/problems/happy-number/
-* @author : cm  
-* @createTime : 2020-7-2 16:43:35  
-* @version : v1.0    
-*/
+/**
+ * @desc : https://leetcode-cn.com/problems/happy-number/
+ * @author : cm
+ * @createTime : 2020-7-2 16:43:35
+ * @version : v1.0
+ */
 public class _202_快乐数 {
 
     private final Set<Integer> result = new HashSet<>();

@@ -1,11 +1,11 @@
 package cn.leetcode.数组;
 
-/**  
-* @desc : https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
-* @author : cm  
-* @createTime : 2020-7-2 16:38:51  
-* @version : v1.0    
-*/
+/**
+ * @desc : https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+ * @author : cm
+ * @createTime : 2020-7-2 16:38:51
+ * @version : v1.0
+ */
 //(结论：超时)
 public class _26_删除排序数组中的重复项 {
 
@@ -43,7 +43,7 @@ public class _26_删除排序数组中的重复项 {
 
     public static void main(String[] args) {
         _26_删除排序数组中的重复项 remove = new _26_删除排序数组中的重复项();
-        int[] nums = { 0, 1, 1, 1, 2, 3 };
+        int[] nums = {0, 1, 1, 1, 2, 3};
         // nums 是以“引用”方式传递的。也就是说，不对实参做任何拷贝
         int len = remove.removeDuplicates(nums);
         System.out.println("len=" + len);

@@ -1,11 +1,11 @@
 package cn.leetcode.链表;
 
-/**  
-* @desc : https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
-* @author : cm  
-* @createTime : 2020-7-2 16:25:05  
-* @version : v1.0    
-*/
+/**
+ * @desc : https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
+ * @author : cm
+ * @createTime : 2020-7-2 16:25:05
+ * @version : v1.0
+ */
 public class _237_删除链表中的节点 {
 
     public class ListNode {

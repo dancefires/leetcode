@@ -1,11 +1,11 @@
 package cn.leetcode.树;
 
-/**  
-* @desc : https://leetcode-cn.com/problems/search-in-a-binary-search-tree/
-* @author : cm  
-* @createTime : 2020-7-2 16:34:53  
-* @version : v1.0    
-*/
+/**
+ * @desc : https://leetcode-cn.com/problems/search-in-a-binary-search-tree/
+ * @author : cm
+ * @createTime : 2020-7-2 16:34:53
+ * @version : v1.0
+ */
 public class _700_二叉搜索树中的搜索 {
 
     public static void main(String[] args) {

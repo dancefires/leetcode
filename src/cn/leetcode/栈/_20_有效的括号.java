@@ -3,12 +3,12 @@ package cn.leetcode.栈;
 import java.util.HashMap;
 import java.util.Stack;
 
-/**  
-* @desc : https://leetcode-cn.com/problems/valid-parentheses/  
-* @author : cm  
-* @createTime : 2020-7-2 16:30:39  
-* @version : v1.0    
-*/
+/**
+ * @desc : https://leetcode-cn.com/problems/valid-parentheses/
+ * @author : cm
+ * @createTime : 2020-7-2 16:30:39
+ * @version : v1.0
+ */
 public class _20_有效的括号 {
 
     // Hash table that takes care of the mappings.

@@ -1,11 +1,11 @@
 package cn.leetcode.数学;
 
-/**  
-* @desc : https://leetcode-cn.com/problems/reverse-integer/
-* @author : cm  
-* @createTime : 2020-7-2 16:35:52  
-* @version : v1.0    
-*/
+/**
+ * @desc : https://leetcode-cn.com/problems/reverse-integer/
+ * @author : cm
+ * @createTime : 2020-7-2 16:35:52
+ * @version : v1.0
+ */
 public class _7_整数反转 {
 
     public static int reverse(int x) {

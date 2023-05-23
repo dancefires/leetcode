@@ -1,5 +1,11 @@
 package cn.leetcode.链表;
 
+/**
+ * @desc : https://leetcode.cn/problems/linked-list-cycle/
+ * @author : cm
+ * @createTime : 2020-7-2 16:51:01
+ * @version : v1.0
+ */
 public class _141_环形链表 {
 
     class ListNode {

@@ -1,2 +1,3 @@
 # leetcode
+
 Self Training

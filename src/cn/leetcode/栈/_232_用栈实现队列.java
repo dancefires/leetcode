@@ -2,12 +2,12 @@ package cn.leetcode.栈;
 
 import java.util.Stack;
 
-/**  
-* @desc : https://leetcode-cn.com/problems/implement-queue-using-stacks/
-* @author : cm  
-* @createTime : 2020-7-13 17:17:23  
-* @version : v1.0    
-*/
+/**
+ * @desc : https://leetcode-cn.com/problems/implement-queue-using-stacks/
+ * @author : cm
+ * @createTime : 2020-7-13 17:17:23
+ * @version : v1.0
+ */
 public class _232_用栈实现队列 {
 
     private Stack<Integer> inStack;
@@ -37,11 +37,11 @@ public class _232_用栈实现队列 {
         return outStack.peek();
     }
 
-    /**  
-    * @author : cm  
-    * @createTime : 2020-7-13 17:45:02  
-    * @desc : 挪动inStack中的数据至outStack中
-    */
+    /**
+     * @author : cm
+     * @createTime : 2020-7-13 17:45:02
+     * @desc : 挪动inStack中的数据至outStack中
+     */
     public void checkStackEmpty() {
         if (outStack.isEmpty()) {
             while (!inStack.isEmpty()) {

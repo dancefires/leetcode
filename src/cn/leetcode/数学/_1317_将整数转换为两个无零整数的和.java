@@ -1,11 +1,11 @@
 package cn.leetcode.数学;
 
-/**  
-* @desc : https://leetcode-cn.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
-* @author : cm  
-* @createTime : 2020-7-2 16:27:45  
-* @version : v1.0    
-*/
+/**
+ * @desc : https://leetcode-cn.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
+ * @author : cm
+ * @createTime : 2020-7-2 16:27:45
+ * @version : v1.0
+ */
 public class _1317_将整数转换为两个无零整数的和 {
 
     public static int[] getNoZeroIntegers(int n) {

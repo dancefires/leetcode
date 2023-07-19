@@ -1,4 +1,4 @@
-package cn.leetcode;
+package cn.leetcode.java;
 
 /**
  * @desc : https://leetcode-cn.com/problems/search-in-a-binary-search-tree/

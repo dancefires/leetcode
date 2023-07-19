@@ -1,4 +1,4 @@
-package cn.leetcode;
+package cn.leetcode.java;
 
 /**
  * @desc : https://leetcode.cn/problems/missing-number/

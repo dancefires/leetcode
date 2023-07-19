@@ -1,4 +1,4 @@
-package cn.leetcode;
+package cn.leetcode.java;
 
 /**
  * @author : everget

@@ -1,4 +1,4 @@
-package cn.leetcode.数组;
+package cn.leetcode;
 
 /**
  * @desc : https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/

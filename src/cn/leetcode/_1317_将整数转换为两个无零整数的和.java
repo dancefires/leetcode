@@ -1,4 +1,4 @@
-package cn.leetcode.数学;
+package cn.leetcode;
 
 /**
  * @desc : https://leetcode-cn.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/

@@ -1,4 +1,4 @@
-package cn.leetcode.数学;
+package cn.leetcode;
 
 import java.util.HashSet;
 import java.util.Set;

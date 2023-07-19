@@ -1,4 +1,4 @@
-package cn.leetcode.栈;
+package cn.leetcode;
 
 import java.util.HashMap;
 import java.util.Stack;

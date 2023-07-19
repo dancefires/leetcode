@@ -1,4 +1,4 @@
-package cn.leetcode.数组;
+package cn.leetcode;
 
 /**
  * @desc : https://leetcode.cn/problems/missing-number/

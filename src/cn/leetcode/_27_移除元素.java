@@ -1,4 +1,4 @@
-package cn.leetcode.数组;
+package cn.leetcode;
 
 /**
  * @author : everget

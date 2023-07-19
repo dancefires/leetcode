@@ -1,4 +1,4 @@
-package cn.leetcode.树;
+package cn.leetcode;
 
 /**
  * @desc : https://leetcode-cn.com/problems/search-in-a-binary-search-tree/

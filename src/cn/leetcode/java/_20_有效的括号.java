@@ -11,6 +11,19 @@ import java.util.Stack;
  */
 public class _20_有效的括号 {
 
+    /**
+     * 思路：
+     * 1、遇见左字符，将左字符入栈；
+     * 2、遇见右字符
+     * 2.1如果栈是空的，说明括号无效
+     * 2.2如果栈不为空，将栈顶字符出栈，与右字符匹配（匹配方式：借助HashMap key与value 相对应方法）
+     * 2.2.1如果左右字符不匹配，说明括号无效
+     * 2.2.2如果左右字符匹配，继续扫描下一个字符
+     * 3、所有字符扫描完成后
+     * 3.1栈为空，说明括号有效
+     * 3.2栈不为空，说明括号无效
+     */
+
     // Hash table that takes care of the mappings.
     private final HashMap<Character, Character> mappings;
 

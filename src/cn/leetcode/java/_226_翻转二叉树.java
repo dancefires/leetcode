@@ -71,7 +71,7 @@ public class _226_翻转二叉树 {
         TreeNode tmp = root.left;
         root.left = root.right;
         root.right = tmp;
-        // 递归调用
+        // 递归调用（此处因为第69行已经交换过左右子树了，所以传left子树）
         invertTree3(root.left);
         return root;
     }

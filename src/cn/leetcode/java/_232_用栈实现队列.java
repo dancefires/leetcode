@@ -10,6 +10,16 @@ import java.util.Stack;
  */
 public class _232_用栈实现队列 {
 
+    /**
+     * 思路：
+     * 1、准备两个栈：inStack、outStack
+     * 2、入队时，push到inStack中
+     * 3、出队时，
+     * 3.1如果outStack为空，将inStack中所有元素逐一弹出并且push到outStack中，然后从outStack中弹出栈顶元素；
+     * 3.2如果outStack不为空，从outStack中弹出栈顶元素
+     */
+
+
     private Stack<Integer> inStack;
 
     private Stack<Integer> outStack;
